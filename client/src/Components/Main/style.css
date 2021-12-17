@@ -1,0 +1,61 @@
+.main{
+    height:91%;
+    background-color: #191919;
+    color:#c3c3c3;
+    display:flex;
+    flex-direction: row;
+    align-content: stretch;
+}
+.top{
+    width:30%;
+}
+.line{
+    margin-left: 10px;
+    width:0.5%;
+    background-color: #111111;
+}
+.bottom{
+    width:69%;
+    display: flex;
+    flex-direction: column;
+}
+
+.recommendedMovies{
+    height: 100%;
+}
+.heading_{
+    font-size: 30px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.moviecards{
+    margin-top: 6px;
+    height:90%; 
+    width:100%; 
+    display:flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.center{
+    margin-top:150px;
+}
+h4{
+    color:#c3c3c3
+}
+
+  
+  
+  

@@ -1,0 +1,33 @@
+{
+  "name": "recommendation_engine",
+  "version": "1.0.0",
+  "description": "A real time movie recommendation engine ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanbedi1/Recommendation-Engine.git"
+  },
+  "keywords": [
+    "Recommendation",
+    "Engine"
+  ],
+  "author": "amanbedi1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanbedi1/Recommendation-Engine/issues"
+  },
+  "homepage": "https://github.com/amanbedi1/Recommendation-Engine#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "neo4j-driver": "^4.4.1",
+    "nodemon": "^2.0.15"
+  }
+}
